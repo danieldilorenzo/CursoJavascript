@@ -1,0 +1,25 @@
+Javascript
+
+Quando o cliente (nós) pedimos uma página para o servidor (site), ele envia um arquivo html
+
+HTML cuida das imagens, do texto, de organizar, do conteúdo
+CSS cuida do design, do layout
+Javascript cuida da parte da formatação
+
+Deixar o Google preto
+
+document.body.style.background = "Black"
+
+Referencias
+
+Javascript - O guia definitivo (David Flanagan)
+Javascript - Guia do programador (Mauricio Samy Silva)
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference
+https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+
+
+Requisitos
+
+Navegador
+VSCode
+NodeJS
