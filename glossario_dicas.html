@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glossário e dicas</title>
-    <style>
-      body {
-        background-color: wheat;
-        color: black;
-        font: normal 15pt Arial;
-        padding: 15px;
-      }
 
-      p {
-        color: red;
-      }
-      p1 {
-        color: black;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glossário e dicas</title>
+  <style>
+    body {
+      background-color: wheat;
+      color: black;
+      font: normal 15pt Arial;
+      padding: 15px;
+    }
 
-  <body></body>
-  <h2>Glossário e dicas curso Daniel</h2>
-  <br />
-  <p1>
-    s.length() // conta quantos caracteres a string tem
+    p {
+      color: red;
+    }
+
+    p1 {
+      color: black;
+    }
+  </style>
+</head>
+
+<body></body>
+<h2>Glossário e dicas curso Daniel</h2>
+<br />
+<p1>
+  s.length() // conta quantos caracteres a string tem
   </p>
   <!--  -->
   <p1>
     s.toUpperCase() //converte a string para apenas MAIUSCULAS
-  </p>
-  <br />
-  <!--  -->
-  <p>Criar alerta:</p>
-  <p1> alert('alerta desejado') </p1>
-  <br /><br />
-  <!--  -->
-  <p>Criar confirmação:</p>
-  <p1>alert('confirmação desejada')</p1>
-  <br /><br />
-  <!--  -->
-  <p>Abrir uma caixa para que o user digite algo:</p>
-  <p1>prompt('mensagem')</p1
-  ><br /><br /><br>
-  <!--  -->
-  <p>Exemplo de código para fazer uma pergunta e colar uma resposta com o que foi respondido<p></p><br><p1></p1>var resposta = prompt("você está bem?");<br>
-    alert(`Que bom que você respondeu ${resposta}`);</p1><br><br>
+    </p>
+    <br />
+    <!--  -->
+    <p>Criar alerta:</p>
+    <p1> alert('alerta desejado') </p1>
+    <br /><br />
+    <!--  -->
+    <p>Criar confirmação:</p>
+    <p1>alert('confirmação desejada')</p1>
+    <br /><br />
+    <!--  -->
+    <p>Abrir uma caixa para que o user digite algo:</p>
+    <p1>prompt('mensagem')</p1><br /><br /><br>
+    <!--  -->
+    <p>Exemplo de código para fazer uma pergunta e colar uma resposta com o que foi respondido
+    <p></p><br>
+    <p1></p1>var resposta = prompt("você está bem?");<br>
+    alert(`Que bom que você respondeu ${resposta}`);
+  </p1><br><br>
   <!--  -->
   <p>Identificadores</p>
   <li>Podem começar com: Letra, $ ou _</li>
@@ -69,41 +73,36 @@
   <br />
   <!--  -->
   <p>Converter número para inteiro</p>
-  <p1>Number.parseInt(N)</p1
-  ><br /><br />
+  <p1>Number.parseInt(N)</p1><br /><br />
   <!--  -->
   <p>Converter número para float</p>
-  <p1>Number.parseFloat(N)</p1
-  ><br /><br />
+  <p1>Number.parseFloat(N)</p1><br /><br />
   <!--  -->
   <p>Converter número para genérico</p>
-  <p1>Number(N)</p1
-  ><br /><br />
+  <p1>Number(N)</p1><br /><br />
   <!--  -->
   <p>Converter para string</p>
-  <p1>String(n)</p1
-  ><br />
-  <p1>n.toString</p1
-  ><br /><br />
+  <p1>String(n)</p1><br />
+  <p1>n.toString</p1><br /><br />
   <!--  -->
   <p>Mostrar número com duas casas decimais</p>
-  <p1>n.toFixed(2)</p1
-  ><br /><br />
+  <p1>n.toFixed(2)</p1><br /><br />
   <!--  -->
   <p>Mostrar um valor BR com real e duas casas decimais</p>
-  <p1>n.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})</p1
-  ><br /><br />
+  <p1>n.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})</p1><br /><br />
   <!---->
   <p>Ver se dois valores são iguais em valor e tipo</p>
   <p1> === <br><br>
-  5 == '5' - True<br>5 === '5' - False <br><br>(pois o primeiro é um número e o segudo uma string) </p1><br><br>
+    5 == '5' - True<br>5 === '5' - False <br><br>(pois o primeiro é um número e o segudo uma string) </p1><br><br>
   <!--  -->
-    <p>Negação</p>
-    <p1>Negação, representado por ! </p1>
-    <p>Conjunção</p>
-    <p1>Quando duas afirmações estão corretas<br>const a = 3;<br>const b = -2;<br><br>console.log(a > 0 && b > 0);<br>// expected output: false<br><br></p1>
-    <p>Disjunção</p><br>
-    <p1>Se alguma das afirmações estiverem corretas<br>const a = 3;<br>const b = -2;<br><br>console.log(a > 0 || b > 0);<br>// expected output: true<br><br><br></p1>
+  <p>Negação</p>
+  <p1>Negação, representado por ! </p1>
+  <p>Conjunção</p>
+  <p1>Quando duas afirmações estão corretas<br>const a = 3;<br>const b = -2;<br><br>console.log(a > 0 && b > 0);<br>//
+    expected output: false<br><br></p1>
+  <p>Disjunção</p><br>
+  <p1>Se alguma das afirmações estiverem corretas<br>const a = 3;<br>const b = -2;<br><br>console.log(a > 0 || b >
+    0);<br>// expected output: true<br><br><br></p1>
   <p>Operadores</p>
   <li>Aritméticos</li>
   <li>Atribuição</li>
@@ -128,9 +127,22 @@
   <!--  -->
   <p>Operador Ternário</p>
   <p1>Operação de três partes<br><br>média >=7? "aprovado": "reprovado"<br>
-  Se a média for igual ou maior a 7, aprovado. Se não, reprovado.
+    Se a média for igual ou maior a 7, aprovado. Se não, reprovado.
   </p1><br><br>
-  <p1> Outro exemplo<br><br> var idade= 34<br> var resultado = idade >= 18? 'MAIOR': 'MENOR'</p1>
+  <p1> Outro exemplo<br><br> var idade= 34<br> var resultado = idade >= 18? 'MAIOR': 'MENOR'</p1><br>
+  <!--  -->
+  <br><br>
+  <p1>Instalar extensão "Node.js Exec"</p1>
+  <!--  -->
+  <br>
+  <br>
+  <p>Pegar o primeiro elemento por TagName<br><br>
+    <p1>var p1 = document.getElementsByTagName("p")[0];<br>
+      document.write(XX.innerText);<br><br>
+      <p1>(O comando acima imprime o texto em questão)</p1>
+  </p>
+  <br>
+  <p1>Para pegar com formatação<br>document.write(p1.innerHTML);</p1>
   <!--  -->
   <!--  -->
   <!--  -->
@@ -177,7 +189,5 @@
   <!--  -->
   <!--  -->
   <!--  -->
-  <!--  -->
-  <!--  -->
-  <!--  -->
+
 </html>
