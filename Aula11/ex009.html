@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nationality Validator</title>
+    <style>
+      body {
+        background: burlywood;
+        color: black;
+        font: normal 15pt Arial;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nationality Validator</h1>
+    <p>What's your nationality?</p>
+    <input type="text" name="pais" id="pais" />
+    <input type="submit" value="Validate" onclick="validate()" />
+    <div id="resposta"></div>
+    <script>
+      function validate() {
+        var pais = document.getElementById(`pais`).value;
+        if (pais == "Brasil") {
+          resposta.innerHTML += "Bem vindo de volta";
+        }
+        if (pais == "Portugal") {
+          resposta.innerHTML += "Espero que goste daqui";
+        } else {
+          resposta.innerHTML += "I hope you like it here";
+        }
+      }
+    </script>
+  </body>
+</html>

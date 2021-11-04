@@ -5,11 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        background: gray;
+        font: normal 20pt Arial;
+      }
+      input {
+        font: normal 18pt Arial;
+        width: 100px;
+      }
+    </style>
   </head>
   <body>
+    <input type="number" name="1" id="1" /> +
+    <input type="number" name="2" id="2" /> +
+    <input type="number" name="3" id="3" /> +
+    <input type="number" name="4" id="4" /> +
+    <input type="number" name="5" id="5" /> +
+    <input type="number" name="6" id="6" /> +
+    <input type="number" name="7" id="7" /> +
+    <input type="number" name="8" id="8" /> +
+    <input type="number" name="9" id="9" /> +
+    <input type="number" name="0" id="0" />
+    <input type="button" value="Somar" onclick="somar()" />
+
+    <div id="res">Resultado</div>
     <script>
-      var resposta = prompt("você está bem?");
-      alert(`Que bom que você respondeu que ${resposta}`);
+      function somar() {
+        var tn1 = window.document.getElementById("1");
+        var tn2 = window.document.getElementById("2");
+        var tn3 = window.document.getElementById("3");
+        var tn4 = window.document.getElementById("4");
+        var tn5 = window.document.getElementById("5");
+        var tn6 = window.document.getElementById("6");
+        var tn7 = window.document.getElementById("7");
+        var tn8 = window.document.getElementById("8");
+        var tn9 = window.document.getElementById("9");
+        var tn0 = window.document.getElementById("0");
+        var res = window.document.getElementById("res");
+        var n1 = Number(tn1.value);
+        var n2 = Number(tn2.value);
+        var n3 = Number(tn3.value);
+        var n4 = Number(tn4.value);
+        var n5 = Number(tn5.value);
+        var n6 = Number(tn6.value);
+        var n7 = Number(tn7.value);
+        var n8 = Number(tn8.value);
+        var n9 = Number(tn9.value);
+        var n0 = Number(tn0.value);
+
+        console.log(n1, n2, n3, n4, n5, n6, n7, n8, n9, n0);
+        var s = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n0;
+        res.innerHTML = `A soma é igual a <strong>${s}</strong>`;
+      }
     </script>
   </body>
 </html>
