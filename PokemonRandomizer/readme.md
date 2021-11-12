@@ -5,30 +5,32 @@
 Projeto para aprendizado e aperfeiçoamento das habilidades de JS, onde deverá ser usado Vanilla JS.</p>
 <br>
 
-O que está fazendo
+## O que está sendo feito
 
-Onde quer chegar
+<br>Esse é um projeto para se fazer uma pokedex simples e limpa, para consulta e ordenação dos dados.<br><br>
 
-Sobre
+## Conhecimentos buscados
 
-Conhecimentos buscados (html css js)
+Com isso, desejo obter conhecimentos nas áreas de HTML, CSS e JavaScript a fim de poder adquirir as habilidades necessárias para se trabalhar no front-end.<br><br>
 
-Requisitos, o que deve acontecer
+## O que se esperar
 
-https://whimsical.com/
+Espera-se que ao final do projeto, tenha um melhor conhecimento sobre:
 
-html - css para ter a página
+- Contrução de páginas web (HTML e CSS, lógica de programação, linguagem de programação JavaScript);
 
-json com tipos
+- Requisições **fetch**;
 
-innerhtml
+- Melhor conhecimento de **Arrays**, **Objetos** e **DOM**.
 
-append
+<br>
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox
+## Links:
 
-https://getbootstrap.com/docs/4.4/utilities/flex/
-https://getbootstrap.com/docs/4.0/layout/grid/
-https://getbootstrap.com/docs/4.0/components/badge/
-https://getbootstrap.com/docs/4.0/components/card/
-www.w3schools.com/jquery/html_append.asp
+<br>
+
+- [Projeto Pokemon Data](https://tangy-newsboy-925.notion.site/Pok-mon-Data-a9632a2789644723b3c1bf1cdefb6e1e "Pokemon Data")
+
+- [Github](https://github.com/danieldilorenzo/CursoJavascript/tree/main/PokemonRandomizer "Projeto")
+
+- [Figma (ainda a fazer)]('')
